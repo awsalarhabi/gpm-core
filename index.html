@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GPM CORE — Executive Intelligence</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="mark">G</span><div><div class="eyebrow">TENANT</div><strong>Green Path Medica KSA</strong></div></div>
+  <div class="top-actions"><span class="live"><i></i> LIVE</span><button class="ghost" id="lang">AR</button><button class="avatar">A</button></div>
+</header>
+<main>
+  <section class="hero panel">
+    <div><div class="eyebrow cyan">EMPIRE BRIEF · JEDDAH · READ-ONLY PROJECTION</div><h1>What matters today.</h1><p>Trust-validated facts, metrics & predictions.</p></div>
+    <div class="score trusted">STABLE · 78</div>
+  </section>
+
+  <section class="brief-grid" id="brief"></section>
+
+  <section class="panel">
+    <div class="section-head"><div><div class="eyebrow">FINANCIAL PERFORMANCE · LIVE</div><h2>Revenue, margin, cash & runway</h2></div><span class="unit">SAR · MILLIONS</span></div>
+    <div class="metric-grid" id="metrics"></div>
+    <div class="chart-wrap"><div class="ylabels"><span>8</span><span>6</span><span>4</span><span>2</span><span>0</span></div><div class="chart"><svg viewBox="0 0 1000 250" preserveAspectRatio="none"><path class="area" d="M0 185 C80 155 100 175 150 165 S220 155 280 135 S360 150 430 125 S520 115 570 125 S650 95 720 110 S800 85 860 105 S930 120 1000 70 L1000 250 L0 250Z"/><path class="line" d="M0 185 C80 155 100 175 150 165 S220 155 280 135 S360 150 430 125 S520 115 570 125 S650 95 720 110 S800 85 860 105 S930 120 1000 70"/><path class="line second" d="M0 205 C80 195 100 202 150 198 S220 188 280 190 S360 178 430 185 S520 165 570 178 S650 160 720 170 S800 155 860 165 S930 172 1000 150"/></svg><div class="xlabels"><span>W-12</span><span>W-10</span><span>W-8</span><span>W-6</span><span>W-4</span><span>W-2</span><span>W-1</span></div></div></div>
+  </section>
+
+  <section class="panel">
+    <div class="section-head"><div><div class="eyebrow">OPERATIONS · KEMPHOR</div><h2>Receivables, stockouts & inventory health</h2></div></div>
+    <div class="ops-grid" id="ops"></div>
+    <div class="table-scroll"><table><thead><tr><th>SKU</th><th>ON HAND</th><th>DSO</th><th>COVER (DAYS)</th><th>STATUS</th></tr></thead><tbody id="inventory"></tbody></table></div>
+  </section>
+
+  <section class="panel">
+    <div class="eyebrow">MARGIN · PRODUCT × CHANNEL</div><h2>Margin intelligence</h2>
+    <div class="heatmap" id="heatmap"></div>
+  </section>
+
+  <section class="panel">
+    <div class="eyebrow">DECISIONS · RISKS & ACTIONS</div><h2>What to watch, what to do</h2>
+    <h3>LIVE RISKS</h3><div id="risks"></div>
+    <h3>RECOMMENDED ACTIONS</h3><div id="actions"></div>
+  </section>
+
+  <section class="panel ask-panel">
+    <div><div class="eyebrow cyan">GIE · ASK EIOS</div><h2>Ask the enterprise.</h2><p>Answers are grounded in verified enterprise facts and show trust with every response.</p></div>
+    <div class="ask"><input id="question" value="Why is the mouthwash risk high?"/><button id="askBtn">ASK EIOS <span>↗</span></button></div>
+    <div id="answer" class="answer hidden"></div>
+  </section>
+</main>
+<footer>GPM CORE · Enterprise Intelligence Operating System · Read-only executive projection</footer>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
